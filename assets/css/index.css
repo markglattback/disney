@@ -2551,7 +2551,7 @@ main {
   text-align: center;
 }
 @media screen and (max-width: 640px) {
-  #covid-update p {
+  #covid-update {
     text-align: left;
   }
 }
