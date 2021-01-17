@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $(document).foundation();
+  
   $('#hero-banner').slick({
     arrows: false,
     dots: true,
@@ -11,6 +12,8 @@ $(document).ready(function() {
     autoplay: true,
     autoplaySpeed: 5000,
   });
+
+  $('hidden').removeClass('hidden');
 
   $('#video-title-wrapper').slick({
     slidesToShow: 4.5,
