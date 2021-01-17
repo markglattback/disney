@@ -291,7 +291,8 @@ main {
 #hero-banner {
   background: $black;
   max-width: 100vw;
-  overflow-x: hidden;
+  max-height: 600px;
+  overflow: hidden;
 }
 
 .hidden {

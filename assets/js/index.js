@@ -13,8 +13,6 @@ $(document).ready(function() {
     autoplaySpeed: 5000,
   });
 
-  $('hidden').removeClass('hidden');
-
   $('#video-title-wrapper').slick({
     slidesToShow: 4.5,
     slidesToScroll: 1,
