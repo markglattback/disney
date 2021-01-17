@@ -2271,6 +2271,12 @@ nav ul li a {
     order: 2;
   }
 }
+@media screen and (max-width: 480px) {
+  #nav-brand-logo img {
+    max-width: 25vw;
+    height: auto;
+  }
+}
 
 @media screen and (max-width: 800px) {
   #nav-links {
@@ -2285,7 +2291,6 @@ nav ul li a {
   #nav-links ul {
     flex-direction: column;
     padding-left: 0;
-    padding-top: 64px;
   }
   #nav-links ul li a {
     font-size: 1.25rem;
@@ -2313,6 +2318,20 @@ nav ul li a {
   text-decoration: none;
   padding: 0.625rem;
 }
+@media screen and (max-width: 800px) {
+  #nav-account a {
+    transform: translateX(25%);
+  }
+}
+#nav-account a span {
+  display: inline-flex;
+}
+@media screen and (max-width: 480px) {
+  #nav-account a #account-button-image img {
+    width: 16px;
+    height: 16px;
+  }
+}
 #nav-account a #account-button-text {
   margin-left: 1rem;
   margin-right: 1.375rem;
@@ -2334,7 +2353,7 @@ nav ul li a {
   background: transparent;
   border: none;
   cursor: pointer;
-  transform: translateX(-25%);
+  transform: translateX(-50%);
   z-index: 1000;
 }
 @media screen and (min-width: 801px) {

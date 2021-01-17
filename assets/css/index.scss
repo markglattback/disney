@@ -130,6 +130,13 @@ nav {
     flex: 1 1 0;
     order: 2;
   }
+
+  @media screen and (max-width: 480px) {
+    img {
+      max-width: 25vw;
+      height: auto;
+    }
+  }
 }
 
 #nav-links {
@@ -145,7 +152,6 @@ nav {
     ul {
       flex-direction: column;
       padding-left: 0;
-      padding-top: $nav-height-mobile;
 
       li {
         a {
@@ -178,6 +184,23 @@ nav {
     text-decoration: none;
     padding: 0.625rem;
 
+    @media screen and (max-width: 800px) {
+      transform: translateX(25%);
+    }
+
+    span {
+      display: inline-flex;
+    }
+
+    #account-button-image {
+      @media screen and (max-width: 480px) {
+        img {
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
+
     #account-button-text {
       margin-left: 1rem;
       margin-right: 1.375rem;
@@ -200,7 +223,7 @@ nav {
   background: transparent;
   border: none;
   cursor: pointer;
-  transform: translateX(-25%);
+  transform: translateX(-50%);
   z-index: 1000;
   
 
