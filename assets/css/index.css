@@ -2550,11 +2550,6 @@ main {
   padding: 3.75rem 0;
   text-align: center;
 }
-@media screen and (max-width: 640px) {
-  #covid-update {
-    text-align: left;
-  }
-}
 #covid-update p {
   line-height: 1.67;
 }
@@ -2704,6 +2699,11 @@ main {
   max-width: 520px;
   line-height: 1.67;
   margin-bottom: 1.25rem;
+}
+@media screen and (max-width: 1024px) {
+  #trailer-details {
+    align-items: center;
+  }
 }
 
 #film-columns {
