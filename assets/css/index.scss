@@ -200,7 +200,9 @@ nav {
   background: transparent;
   border: none;
   cursor: pointer;
+  transform: translateX(-25%);
   z-index: 1000;
+  
 
   @media screen and (min-width: 801px) {
     display: none;
@@ -210,7 +212,7 @@ nav {
     display: block;
     position: relative;
     left: 20px;
-    height: 4px;
+    height: 2px;
     width: 24px;
     background: $white;
     transition: all 0.15s ease-in-out 0.15s;
@@ -220,7 +222,7 @@ nav {
       content: "";
       display: block;
       position: absolute;
-      height: 4px;
+      height: 2px;
       width: 24px;
       background: $white;
       transition: all 0.3s ease-in-out;
