@@ -215,15 +215,16 @@ nav {
 
 #nav-toggle-container {
   display: flex;
+  justify-content: center;
   align-items: center;
   position: relative;
-  height: 40px;
-  width: 40px;
+  height: 36px;
+  width: 36px;
   padding: 0;
   background: transparent;
   border: none;
   cursor: pointer;
-  transform: translateX(-50%);
+  transform: translateX(-25%);
   z-index: 1000;
   
 
@@ -234,7 +235,6 @@ nav {
   span {
     display: block;
     position: relative;
-    left: 20px;
     height: 2px;
     width: 24px;
     background: $white;
