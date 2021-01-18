@@ -2655,6 +2655,7 @@ main {
 }
 
 #video-player {
+  display: flex;
   background: #000;
 }
 @media screen and (max-width: 1500px) {
